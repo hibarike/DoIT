@@ -1,3 +1,58 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+}
+img{
+    width: 370px;
+    height: 354px;
+    padding-top: 40px;
+}
+.side-container{
+    width: 370px;
+    background-color: #1e2939;
+    
+}
+.side-container h3{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.side-container-text{
+    padding-left: 40px;
+}
+.main-container{
+    display: flex;
+    padding: 40px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+.contacts-container
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+}
+.contacts-container a{
+    opacity: 0.5;
+    color: #ffffff;
+}
+.side-container ul{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "HTML5" */
+    letter-spacing: 0.42;
+}
+.about-me-container{
+    padding-left: 89px;
+    padding-top: 108px;
+    padding-right: 189px;
+
+    
 }
