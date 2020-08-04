@@ -75,7 +75,8 @@ body{
 }
 /* About me */
 .about-me-container{
-    padding-right: 90px;
+    text-align: justify;
+    padding-right: 200px;
     padding-left: 90px;
     padding-top: 110px;
     padding-bottom: 110px;
@@ -91,6 +92,7 @@ body{
     font-weight: 700;
 }
 .about-me-text{
+    
     margin-top: 25px;
     font-size: 14px;
     font-weight: 400;
@@ -107,7 +109,6 @@ body{
     margin-top: 12px;
     font-size: 14px;
     font-weight: 700;
-    
     list-style-position: inside;
 }
 .project-list-item{
@@ -115,7 +116,6 @@ body{
 }
 .project-list-link{
     color: #595959;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
 }
@@ -130,6 +130,29 @@ body{
 .project-list-types{
     font-weight: 400;
     color: #595959;
+}
+/* Working expirience */
+
+.working-place{
+    color: #ff6b08;
+}
+.working-position{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.work-date{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.work-expirience-list{
+    margin-top: 15px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
 }
 
   
