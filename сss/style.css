@@ -73,6 +73,10 @@ body{
 .skill-text{
     color: #dfdfdf;
 }
+.skills-item-list-SA
+{
+    margin-left: 20px;
+}
 /* About me */
 .about-me-container{
     text-align: justify;
@@ -157,6 +161,10 @@ body{
     font-weight: 400;
     margin-left: 17px;
 }
+.work-expirience-list-in{
+    font-size: 12px;
+    margin-left: 20px;
+}
 /* Education */
 .education-places{
     margin-top: 20px;
@@ -165,6 +173,7 @@ body{
     color: #ff6b08;
     font-size: 16px;
     font-weight: 700;
+    margin-top: 20px;
 }
 .education-place-specialty{
     font-size: 14px;
