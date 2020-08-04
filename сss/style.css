@@ -194,13 +194,13 @@ body{
         display: inline;
     }
     .body{
-        width: auto;
+        width: 480px;
     }
     .my-photo{
-        width: auto;
+        width: 480px;
     }
     .sidebar-container{
-        width: auto;
+        width: 480px;
     }
 }
 
@@ -209,13 +209,13 @@ body{
         display: inline;
     }
     .body{
-        width: auto;
+        width: 320px;
     }
     .my-photo{
-        width: auto;
+        width: 320px;
     }
     .sidebar-container{
-        width: auto;
+        width: 320px;
     }
 }  
 /** iPhone only **/
@@ -224,13 +224,13 @@ body{
         display: inline;
     }
     .body{
-        width: auto;
+        width: 480px;
     }
     .my-photo{
-        width: auto;
+        width: 480px;
     }
     .sidebar-container{
-        width: auto;
+        width: 480px;
     }
 }
 @media only screen and (max-width: 740px) { 
@@ -238,27 +238,27 @@ body{
         display: inline;
     }
     .body{
-        width: auto;
+        width: 740px;
     }
     .my-photo{
-        width: auto;
+        width: 740px;
     }
     .sidebar-container{
-        width: auto;
+        width: 740px;
     }
 }
 @media only screen and (max-width: 570px) { 
     .main-container{
-        display: inline;
+        display: inline-block;
     }
     .body{
-        width: auto;
+        width: 570px;
     }
     .my-photo{
-        width: auto;
+        width: 570px;
     }
     .sidebar-container{
-        width: auto;
+        width: 570px;
     }
 }
 
