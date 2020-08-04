@@ -9,7 +9,9 @@ body{
     padding: 40px;
     width: 1280px;
     background-color: #f5f7fa;
-
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Main */
 .main-container{
@@ -186,6 +188,78 @@ body{
     font-weight: 400;
     color: #a8a8a8;
     
+}
+@media only screen and (max-width: 480px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: auto;
+    }
+    .my-photo{
+        width: auto;
+    }
+    .sidebar-container{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: auto;
+    }
+    .my-photo{
+        width: auto;
+    }
+    .sidebar-container{
+        width: auto;
+    }
+}  
+/** iPhone only **/
+@media screen and (max-device-width: 480px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: auto;
+    }
+    .my-photo{
+        width: auto;
+    }
+    .sidebar-container{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 740px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: auto;
+    }
+    .my-photo{
+        width: auto;
+    }
+    .sidebar-container{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 570px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: auto;
+    }
+    .my-photo{
+        width: auto;
+    }
+    .sidebar-container{
+        width: auto;
+    }
 }
 
 
