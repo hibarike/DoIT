@@ -51,7 +51,7 @@ body{
     color: #ffffff;
     font-weight: 400;
 }
-/* skills */
+/* Hard and Soft skills */
 .skill-title{
     margin-bottom: 20px;
     color: #ffffff;
@@ -102,6 +102,7 @@ body{
     margin-top: 65px;
 }
 .about-me-headers{
+    margin-top: 60px;
     font-size: 22px;
     font-weight: 700;
 }
@@ -139,7 +140,8 @@ body{
 .working-position{
     font-size: 16px;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .work-date{
@@ -153,7 +155,30 @@ body{
     color: #595959;
     font-size: 14px;
     font-weight: 400;
+    margin-left: 17px;
 }
+/* Education */
+.education-places{
+    margin-top: 20px;
+}
+.education-place-name{
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+}
+.education-place-specialty{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.education-place-date{
+    font-size: 12px;
+    font-weight: 400;
+    color: #a8a8a8;
+}
+
+
 
   
   
