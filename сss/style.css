@@ -95,3 +95,42 @@ body{
     font-size: 14px;
     font-weight: 400;
 }
+/* Project */
+.project-container{
+    margin-top: 65px;
+}
+.about-me-headers{
+    font-size: 22px;
+    font-weight: 700;
+}
+.project-list{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    
+    list-style-position: inside;
+}
+.project-list-item{
+    text-align: left;
+}
+.project-list-link{
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project-list-points{
+    margin-left: -5px;
+    margin-right: -5px;
+    color: #a8a8a8;
+    text-align: right;
+
+}
+.project-list-types{
+    font-weight: 400;
+    color: #595959;
+}
+
+  
+  
