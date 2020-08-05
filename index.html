@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="./js/jquery.responsive-dom.js"></script>
+    
 </head>
 
 <body>
@@ -105,7 +106,7 @@
             
             <div class="about-me-container">
                 <!-- About me main info -->
-                <div class="main info">
+                <div class="main-info">
                     <h2 class="profession">Support Engineer, System Administrator</h2>
                     <h1 class="name">Boris Bilyi</h1>
 
@@ -221,13 +222,15 @@ The administration of the 3 senior technicians.
         </div>
    
     <script>
-    
-        var $name = $('.name');
+       if($(window).width() < 700){
+       $(".my-photo" ).before( $( ".name" ));
+       }
+       /* var $name = $('.name');
         $name.responsiveDom({
             appendTo: '.my-photo',
             mediaQuery: '(max-width: 400px)',
             
-        });
+        });*/
     
     </script>
 </body>
