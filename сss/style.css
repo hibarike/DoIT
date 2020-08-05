@@ -189,16 +189,17 @@ body{
     color: #a8a8a8;
     
 }
-
+/*
 @media only screen and (max-width: 480px) { 
     .main-container{
         display: inline;
+        
     }
     .body{
-        width: 480px;
+        width: auto;
     }
     .my-photo{
-        width: 480px;
+        
     }
     .sidebar-container{
         width: 480px;
@@ -219,7 +220,7 @@ body{
         width: 320px;
     }
 }  
-/** iPhone only **/
+ iPhone only
 @media screen and (max-device-width: 480px) { 
     .main-container{
         display: inline;
@@ -251,17 +252,21 @@ body{
 @media only screen and (max-width: 570px) { 
     .main-container{
         display: inline-block;
+        width: auto;
     }
     .body{
         width: 570px;
     }
     .my-photo{
-        width: 570px;
+        width: 120px;
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .sidebar-container{
         width: 570px;
     }
-}
+}*/
 
 
 
