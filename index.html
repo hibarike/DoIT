@@ -7,6 +7,8 @@
     <title>My resume</title>
     <link rel="stylesheet" href="./сss/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./js/jquery.responsive-dom.js"></script>
 </head>
 
 <body>
@@ -218,7 +220,16 @@ The administration of the 3 senior technicians.
             
         </div>
    
-
+    <script>
+    
+        var $name = $('.name');
+        $name.responsiveDom({
+            appendTo: '.my-photo',
+            mediaQuery: '(max-width: 400px)',
+            
+        });
+    
+    </script>
 </body>
 
 </html>
