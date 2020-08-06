@@ -189,12 +189,109 @@ body{
     color: #a8a8a8;
     
 }
-@media only screen and (max-width: 700px) {
-  .name{
+@media only screen and (max-width: 415px) {
+  .main-info{
     color:#fff;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 5pz;
     text-align: center;
+    margin-bottom: 20;
+  }
+  .name{
+    font-size: 30px;
+    
+  }
+  .about-me-text{
+      margin-top: 15px;
+  }
+  .sidebar-container-text{
+      display: inline-flex;
+      width: auto;
+  }
+  .contacts-container{
+     font-size: 12px;
+     margin-left: 10px;
+     margin-right: 0px; 
+  }
+  .contacts-title{
+      font-size: 15px;
+      margin-bottom: 5px;
+  }
+  .contacts-link-type{
+    font-size: 12px;
+    margin-right: 0px;
+  }
+  .skill-container{
+    margin-left: 10px;
+    margin-right: 0px; 
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .skill-title{
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .skill-text{
+    font-size: 12px;
+  }
+  body{
+      padding: 0px;
+      width: 100%;
+      min-width: 320px;
+  }
+  .my-photo{
+      margin-top: 15px;
+      width: 100%;
+      
+  }
+  .about-me-container{
+      padding: 0px;
+  }
+  .sidebar-container{
+      width: 100%;
+  }
+  .about-me-move-down{
+      margin-left: 10px;
+      margin-right: 10px;
+      word-wrap: break-word;
+  }
+  .project-container{
+      margin-top: 20px;
+  }
+  .about-me-headers{
+      margin-top: 10px;
+      text-align: center;
+      font-size: 18px;
+  }
+  
+  
+  .working-position{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+
+  }
+  .work-date{
+    font-size: 10px;
+  }
+  .work-expirience-list{
+    font-size: 10px;
+  }
+  .work-expirience-list-in{
+    font-size: 10px;
+  }
+  .education-place-name{
+      margin-top: 10px;
+      font-size: 12px;
+  }
+  .education-place-specialty{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .education-place-date{
+    margin-top: 10px;
+    font-size: 10px; 
   }
 }
 /*
