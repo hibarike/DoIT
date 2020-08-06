@@ -264,8 +264,12 @@ body{
       font-size: 18px;
   }
   .project-list{
-    font-size: 12px;
+    font-size: 10px;
   }
+  .project-list-link{
+    font-size: 10px;
+  }
+  
   
   .working-position{
       font-size: 12px;
