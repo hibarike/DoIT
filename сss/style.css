@@ -263,7 +263,9 @@ body{
       text-align: center;
       font-size: 18px;
   }
-  
+  .project-list{
+    font-size: 12px;
+  }
   
   .working-position{
       font-size: 12px;
