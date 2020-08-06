@@ -189,7 +189,7 @@ body{
     color: #a8a8a8;
     
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 700px) {
   .main-info{
     color:#fff;
     margin-left: 5px;
