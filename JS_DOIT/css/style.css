@@ -64,5 +64,6 @@
       font-style: normal;
   }
   body{
-    font-family: 'Acrom';
+    font-family: var(--font-main);
+    background-color: var(--c-dark);
   }
