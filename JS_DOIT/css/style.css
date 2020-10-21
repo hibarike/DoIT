@@ -79,6 +79,7 @@
     font-size: 26px;
     line-height: 31px;
     text-transform: uppercase;
+    text-align: center;
     color: var(--txt-c-accent);
   }
   .front-page-profession{
@@ -86,5 +87,36 @@
     font-size: 35px;
     line-height: 42px;
     text-transform: uppercase;
+    text-align: center;
+    color: var(--txt-c-light);
+  }
+  .front-page-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--txt-c-light);
+  }
 
+  /*Navigation*/
+  .navigation{
+    width: 100%;
+  }
+  .hire-me-btn{
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--txt-c-accent);
+    text-decoration: none;
+  }
+  .mobile-menu{
+    width: 30px;
+    height: 30px;
+    background-color: var(--c-accent);
+    display: block;
+  }
+  .mobile-menu i{
+    color: var(--c-light);
+    width: 10px;
   }
