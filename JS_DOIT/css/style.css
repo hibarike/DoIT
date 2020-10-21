@@ -65,5 +65,26 @@
   }
   body{
     font-family: var(--font-main);
-    background-color: var(--c-dark);
+   
+  }
+  /*Front Page*/
+  .front-page{
+    width: 320px;
+    background: var(--c-dark);
+    padding: 30px 10px 40px 10px;
+    box-sizing: border-box;
+  }
+  .front-page-my-name{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: var(--txt-c-accent);
+  }
+  .front-page-profession{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+
   }
