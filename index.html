@@ -223,20 +223,14 @@
         </div>
    
     <script>
-    //   $( window ).resize( function() {
-    //       if($(window).width() < 700){
-    //    $(".my-photo" ).before( $( ".name" ));
-
-    //    }
-    // }
-    //   )
+    
        (function() {
             
         var $main_info = $('.main-info');
 			// Move transient paragraph to the right column when viewport width > 800px
 			$main_info.responsiveDom({
 				before: '.my-photo',
-				mediaQuery: 'screen and (max-width: 700px)',
+				mediaQuery: 'screen and (max-width: 660px)',
 				});
 
 			// Let our CSS know the JS is done
@@ -246,25 +240,14 @@
             
             $sidebar_container.responsiveDom({
 				before: '.about-me-move-down',
-				mediaQuery: 'screen and (max-width: 700px)',
+				mediaQuery: 'screen and (max-width: 660px)',
 				});
 
-            // Let our CSS know the JS is done
+          
             
             $sidebar_container.addClass('js-complete');
 
-            // var $working_position = $("working-position");
-            // $working_position.responsiveDom({
-			// 	appendTo: 'h4.working-place',
-			// 	mediaQuery: 'screen and (min-width: 800px)',
-			// 	});
-
-            // // Let our CSS know the JS is done
-            
-            // $working_position.addClass('js-complete');
-           // $(window).resize(function() {if($(window).width<370){$sidebar_container.width = $(window).width-10;}});
-            // var $body = $("body");
-            // $(window).resize(function() {$body.width = $(window).width;});
+           
         })();
     </script>
 </body>
