@@ -65,7 +65,7 @@
   }
   body{
     font-family: var(--font-main);
-
+    
   }
   
   
@@ -124,5 +124,4 @@
   .mobile-menu i{
     color: var(--c-light);
     width: 10px;
-
   }
