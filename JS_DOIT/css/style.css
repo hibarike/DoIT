@@ -106,6 +106,7 @@
     padding: 20px 35px;
     outline: none;
     border: none;
+    cursor: pointer;
   }
   /*Navigation*/
   .navigation{
@@ -130,6 +131,7 @@
     display: block;
     display: flex;
     justify-content: center;
+    text-decoration: none;
     align-items: center;
   }
   .mobile-menu i{
@@ -400,6 +402,7 @@
 .team-projects .container {
   position: relative;
   overflow-x: hidden;
+  padding-bottom: 0;
 }
 
 .team-projects-title {
@@ -437,4 +440,200 @@
 
 .team-project-item:last-child {
   margin-bottom: 0;
+}
+/* Callback Form */
+.callback-form{
+  background: var(--c-dark);
+  padding: 35px 30px 40px 30px;
+}
+.callback-form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.callback-form-descr{
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--txt-c-light);
+  width: 260px;
+  margin: 0 0 20px 0;
+}
+.callback-form-title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--txt-c-light);
+  width: 260px;
+  margin: 0 0 20px 0;
+}
+.callback-form-input{
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+  border-bottom: 1px solid var(--c-grey-blue);
+  color: var(--txt-c-grey);
+  margin-bottom: 30px;
+}
+/* CALCULATOR FORM SECTION */
+
+.calculator {
+  background: var(--c-dark);
+}
+.calculator.container{
+  padding-bottom: 75px;
+}
+
+.calculator-icon {
+  width: 195px;
+}
+
+.calculator-descr {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--txt-c-light);
+  margin: 0 0 30px 0;
+}
+
+.calculator-descr span {
+  background: var(--c-accent);
+  padding: 5px;
+}
+
+.calculator-descr .calculator-descr-accent {
+  padding: 5px 10px;
+}
+
+.calculator-title {
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+.calculator-text {
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--txt-c-light);
+  margin: 20px 0 30px 0;
+}
+.calculator-form{
+  
+  background-color: var(--c-light);
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculator-form-input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom:  30px;
+}
+.calculator-form-title{
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 135%;
+  color: var(--txt-c-dark);
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.calculator-form-select{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--c-grey-light);
+  padding: 5px 0 17px 0;
+
+}
+.calculator-form-input-radio-container{
+  display: flex;
+}
+.calculator-form-check-label{
+  margin-right: 15px;
+  font-size: 17px;
+line-height: 150%;
+color: var(--txt-c-dark);
+}
+.calculator-form-check{
+ margin-right: 10px;
+}
+.calculator-form-total-cost{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.calculator-form-total{
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  margin: 0;
+}
+.info{
+  background-color: var(--c-light);
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-me{
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:30px 30px 50px 30px;
+  
+  
+}
+.footer-style-dark{
+  font-weight: bold;
+  color: var(--txt-c-dark);
+  margin: 0;
+}
+.footer-style-light{
+  margin: 0 30px 30px 30px;
+  color: var(--c-dark-blue);
+  margin: 0;
+}
+.footer-phone{
+  margin: 15px 30px 15px 30px;
+  text-decoration: none;
+}
+.footer-email{
+  margin: 0 30px 30px 30px;
+  text-decoration: none;
+}
+  
+
+.footer-links{
+  margin: 0 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icon{
+  
+  text-decoration: none;
+  box-sizing: border-box;
+    background: transparent;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--txt-c-accent);
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    color: var(--c-dark-blue);
+   
 }
