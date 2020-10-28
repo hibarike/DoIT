@@ -938,3 +938,6 @@ body {
     margin: 0;
     padding-left: 8px;
 }
+.callback-form-input-error{
+    border: 1px solid red;
+}
