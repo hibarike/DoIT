@@ -1088,5 +1088,8 @@ body {
     line-height: 240px;
     top: 19px;
   }
+  #contacts{
+    padding-bottom: 0;
+  }
   
 }
