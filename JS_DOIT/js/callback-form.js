@@ -55,22 +55,20 @@ callbackFrom.addEventListener("submit", function(event){
     {
         return;
     }
-    userName.value = "";
-    userEmail.value = "";
-    userPhone.value = "";
+    
 
     // send to google-docs
     var http = new XMLHttpRequest();
         var url = "https://script.google.com/macros/s/AKfycbyH4eri-7FT6uT4LWSQUPtjw83BkzWoQZJp9FCrkDtt2u6vMHB-/exec";
-        var params = "p1="+userName.value+"&p2="+userEmail.value+"&p3="+userPhone.value;
+        var params = "p1="+userName.value.replace(/\s+/g,'')+"&p2="+userEmail.value.replace(/\s+/g,'')+"&p3="+userPhone.value.replace(/\s+/g,'');
+        console.log(url+"?"+params);
         http.open("GET", url+"?"+params, true);
-        http.onreadystatechange = function() {
-            if(http.readyState == 4 && http.status == 200) {
-                alert(http.responseText);
-            }
-        }
-        http.send(null);
-
+        http.send();
+        
+        
+        userName.value = "";
+        userEmail.value = "";
+        userPhone.value = "";
     callbackRequestRecived.classList.add("modal-active");
     setTimeout(function(){
         callbackRequestRecived.classList.remove("modal-active");
