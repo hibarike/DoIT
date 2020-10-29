@@ -62,7 +62,12 @@ body {
 
 
 /* COMMON */
-
+.tablet-element{
+    display: none;
+}
+.desktop-element{
+    display: none;
+}
 .container {
     min-width: 320px;
     width: 100%;
@@ -368,7 +373,7 @@ body {
 /*Front Page*/
 
 .front-page {
-    width: 320px;
+    /* width: 320px; */
     background: var(--c-dark);
     padding: 30px 10px 40px 10px;
     box-sizing: border-box;
@@ -409,10 +414,21 @@ body {
 .front-page-gallery-btn {
     margin-bottom: 40px;
 }
+.front-page-my-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .front-page-my-photo {
     width: 100px;
     margin-bottom: 20px;
+}
+.front-page-about-me-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 .front-page-my-descr {
@@ -940,4 +956,136 @@ body {
 }
 .callback-form-input-error{
     border: 1px solid red;
+}
+/* Media query */
+@media only screen and (min-width: 640px){
+    
+    .container{
+        padding-bottom: 70px;
+        min-width: 640px;
+    }
+    .mobile-element{
+        display: none;
+    }
+    .tablet-element{
+        display: block;
+    }
+    .desktop-element{
+        display: none;
+    }
+   .front-page-my-name{
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 0;
+   }
+   .front-page-profession{
+       margin-top: 20px;
+       font-size: 55px;
+        line-height: 66px;
+        margin-bottom: 30px;
+   }
+   .front-page-profession-part1{
+       margin-right: 30px;
+   }
+   .front-page-profession-part2{
+        margin-left: 40px;
+   }
+   .front-page-description{
+    font-size: 17px;
+    line-height: 150%;
+    width: 385px;
+    margin: 0 0 40px 0;
+   }
+   .front-page-my-info{
+    
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 60px;
+   }
+   .front-page-my-photo{
+       width: 140px;
+       /* height: 175px; */
+       margin-right: 35px;
+       margin-bottom: 0;
+   }
+   .front-page-about-me-container{
+    align-items: flex-start;
+   }
+   .front-page-my-descr{
+    text-align: left;
+   }
+   .front-page-my-video-btn{
+       margin-bottom: 0;
+   }
+   .front-page-laptop{
+       margin-bottom: 90px;
+   }
+   .about .container {
+    position: relative;
+  }
+  
+  .about-img-text {
+    position: absolute;
+    right: 22px;
+    top: 228px;
+    font-size: 200px;
+    line-height: 240px;
+  }
+  
+  .about-img {
+    width: 361px;
+    height: 390px;
+    left: -105px;
+    top: 80px;
+  }
+  
+  .about-img-container {
+    margin-bottom: 0;
+  }
+  
+  .about-title {
+    font-size: 50px;
+    line-height: 60px;
+    width: 600px;
+  }
+  
+  .about-descr {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 60px;
+  }
+ .about-text{
+    margin-right: 230px;
+    text-align: justify;
+ }
+  .about-text:last-child {
+    /* width: 320px; */
+    margin-bottom: 84px;
+  }
+  
+  .team-projects-title,
+  .personal-projects-title {
+    text-align: left;
+    width: 400px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  .team-project-item,
+  .personal-project-item {
+    margin: 0 25px 40px 25px;
+  }
+  
+  .callback-form .container,
+  .personal-projects .container,
+  .team-projects .container {
+    align-items: normal;
+  }
+  
+  .team-projects-title-bgd {
+    font-size: 200px;
+    line-height: 240px;
+    top: 19px;
+  }
+  
 }
