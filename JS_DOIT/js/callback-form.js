@@ -61,7 +61,6 @@ callbackFrom.addEventListener("submit", function(event){
     var http = new XMLHttpRequest();
         var url = "https://script.google.com/macros/s/AKfycbyH4eri-7FT6uT4LWSQUPtjw83BkzWoQZJp9FCrkDtt2u6vMHB-/exec";
         var params = "p1="+userName.value.replace(/\s+/g,'')+"&p2="+userEmail.value.replace(/\s+/g,'')+"&p3="+userPhone.value.replace(/\s+/g,'');
-        console.log(url+"?"+params);
         http.open("GET", url+"?"+params, true);
         http.send();
         
