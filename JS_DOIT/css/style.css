@@ -701,6 +701,7 @@ body {
 .callback-form {
     background: var(--c-dark);
     padding: 35px 30px 40px 30px;
+    margin: 30px 10px 40px 10px;
 }
 
 .callback-form-container {
@@ -1091,5 +1092,37 @@ body {
   #contacts{
     padding-bottom: 0;
   }
+  .callback-form{
+      padding: 75px 30px 80px 30px;
+  }
+  .callback-form-title{
+    font-size: 36px;
+    line-height: 43px;
+    width: 386px;
+  }
+  .callback-form-input-submit,
+  .callback-form-input,
+  .callback-form-descr{
+    width: 386px;
+    box-sizing: border-box;
+  }
+  .callback-form{
+      margin: 45px 20px 45px 20px;
+  }
+  .callback-form-input-submit{
+      margin-top: 10px;
+  }
+.calculator-title{
+    font-size: 50px;
+    line-height: 60px;
+    width: 605px;
+    text-align: left;
+}
+.calculator-descr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
   
 }
