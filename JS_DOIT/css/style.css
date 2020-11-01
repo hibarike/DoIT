@@ -766,6 +766,7 @@ body {
     text-transform: uppercase;
     color: var(--txt-c-light);
     margin: 0 0 30px 0;
+    width: 276px;
 }
 
 .calculator-descr span {
@@ -796,6 +797,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .calculator-form-input {
@@ -875,24 +877,30 @@ body {
 }
 
 .footer-style-light {
-    margin: 0 30px 30px 30px;
+    margin: 0 30px 20px 30px;
     color: var(--c-dark-blue);
-    margin: 0;
+    
 }
 
 .footer-phone {
-    margin: 15px 30px 15px 30px;
+    
     text-decoration: none;
+    margin: 0px 30px 15px 30px;
 }
 
 .footer-email {
-    margin: 0 30px 30px 30px;
+    
     text-decoration: none;
+    margin: 0px 30px 30px 30px;
 }
-
+.footer-elements{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .footer-links {
     margin: 0 30px;
-    width: 100%;
+    width: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1117,12 +1125,75 @@ body {
     line-height: 60px;
     width: 605px;
     text-align: left;
+    margin-bottom: 40px;
 }
 .calculator-descr{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: auto;
+    font-size: 36px;
+    line-height: 150%; 
 }
-  
+.calculator .container{
+    align-items: normal;
+    position: relative;
+    padding: 20px 10px 90px 10px;
+}
+.calculator-icon{
+    position: absolute;
+    right: 10px;
+    top: 405px;
+    width: 344px;
+    z-index: 1;
+}
+.calculator-text{
+    text-align: left;
+    width: 330px;
+    margin-top: 10px;
+}
+.calculator-form{
+    z-index: 2;
+    padding: 60px 80px 70px 80px;
+}
+.calculator-form-title{
+    line-height: 150%;
+}
+.calculator-form-inputs{
+    width:100%;
+}
+.calculator-submit{
+    width:100%;
+}
+.footer-me{
+    flex-direction: row;
+    margin: 40px 30px 60px 30px;
+    align-items: initial;
+    justify-content: space-between;
+     width: 100%;
+}
+.footer-callback{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-right: 21px;
+   
+}
+.footer-elements{
+     align-items: flex-start; 
+     margin-left: 21px;
+ 
+}
+
+.footer-style-light,.footer-links,.footer-style-dark{
+    margin: 0;
+}
+.footer-phone{
+    margin-bottom: 15px;
+}
+.footer-style-light{
+    margin-bottom: 20px;
+}
+
   
 }
