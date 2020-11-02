@@ -271,27 +271,38 @@
             <h3 class="callback-form-title">/Are you minding [a project?]</h3>
             <p class="callback-form-descr">Leave a request to discuss the task and technical requirements</p>
             <input type="text" class="callback-form-input" placeholder="Name" id="callback-form-input-name">
-            <input type="email" class="callback-form-input" placeholder="Email"id="callback-form-input-email">
+            <input type="email" class="callback-form-input" placeholder="Email" id="callback-form-input-email">
             <input type="tel" class="callback-form-input" placeholder="+380(__)___-__-__" id="callback-form-input-phone">
             <input type="submit" class="callback-form-input-submit accent-btn" value="Discuss the project  —">
         </form>
     </section>
     <section class="calculator" id="calculator">
         <div class="container">
-            <h3 class="calculator-title section-title">
+            <h3 class="calculator-title section-title mobile-element">
                 Calculate_ the cost of a future project
             </h3>
-            <p class="calculator-descr">
-                <span>This is an</span>
-                <span class="calculator-descr-accent">approximate</span>
-                <span>calculation.</span>
-            </p>
+            <h3 class="calculator-title section-title tablet-element">
+                Calculate_ <br> the cost of a <br> future project
+            </h3>
+            <div class="mobile-element">
+                <p class="calculator-descr  ">
+                    <span>This is an</span>
+                    <span class="calculator-descr-accent">approximate</span>
+                    <span>calculation.</span>
+                </p>
+            </div>
+            <div class="tablet-element">
+                <p class="calculator-descr ">
+                    <span>This is an approximate</span>
+                    <span>calculation.</span>
+                </p>
+             </div>
             <img src="img/calculator.svg" alt="calculator" class="calculator-icon" />
             <p class="calculator-text">
                 / The final cost depends on the technical requirements, terms, specifics of your project.
             </p>
             <form action="" class="calculator-form">
-                <div>
+                <div class="calculator-form-inputs">
                     <div class="calculator-form-input">
                         <label for="calculator-form-website-type" class="calculator-form-title">What should be
                             done:</label>
@@ -343,7 +354,7 @@
                         <p class="calculator-form-total-cost">300</p>
                     </div>
                 </div>
-                <input type="submit" value="Find out the cost  —" class="accent-btn">
+                <input type="submit" value="Find out the cost  —" class="calculator-submit accent-btn">
 
             </form>
 
@@ -352,13 +363,14 @@
     </section>
     <footer class="info container" id="contacts">
         <div class="footer-me">
-            <p class="footer-style-dark"> Boris Bilyi</p>
+            <div class="footer-elements">
+                <p class="footer-style-dark"> Boris Bilyi</p>
             <p class="footer-style-light"> Frontend Develoer</p>
 
-            <a href="tel:+380931068492" class="footer-phone footer-style-dark">
+            <a href="tel:+380931068492" class="footer-phone footer-style-dark mobile-element">
                 +38 (093) 106 84 92
             </a>
-            <a href="mailto:hibarike@gmail.com" class="footer-email footer-style-light">
+            <a href="mailto:hibarike@gmail.com" class="footer-email footer-style-light mobile-element">
                 hibarike@gmail.com
             </a>
             <div class="footer-links">
@@ -370,6 +382,16 @@
                 <a href="https://t.me/whitestels" class="links-telegram footer-icon" target="_blank"><i
                         class="fab fa-telegram"></i></a>
             </div>
+            </div>
+            <div class="footer-callback tablet-element">
+                <a href="tel:+380931068492" class="footer-phone footer-style-dark ">
+                    +38 (093) 106 84 92
+                </a>
+                <a href="mailto:hibarike@gmail.com" class="footer-email footer-style-light">
+                    hibarike@gmail.com
+                </a>
+            </div>
+           
         </div>
 
     </footer>
