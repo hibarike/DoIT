@@ -1289,7 +1289,10 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        margin-top: 115px;
+        padding-top: 115px;
+        box-sizing: border-box;
+        overflow: hidden;
+        
         
     }
     .front-page-laptop{
@@ -1370,7 +1373,6 @@ body {
         z-index: 1;
         position: absolute;
         width: 256px;
-        
         right: 265px;
         bottom: 355px;
     
