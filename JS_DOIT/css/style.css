@@ -26,6 +26,7 @@
     --animation-slow: 0.3s;
     /* modals bgd */
     --moda-bgd-dark: rgba(20, 29, 45, 0.8);
+    --animation-transition: all 0.2s ease-in-out;
 }
 
 @font-face {
@@ -110,6 +111,13 @@ body {
     border: none;
     cursor: pointer;
     text-decoration: none;
+    transition: var(--animation-transition);
+}
+.accent-btn:hover{
+    outline: 1px solid var(--c-accent);
+    background: transparent;
+    color: var(--txt-c-accent);
+
 }
 
 
@@ -213,6 +221,15 @@ body {
     color: var(--txt-c-dark);
     margin-bottom: 35px;
     text-decoration: none;
+    transition: var(--animation-transition);
+}
+.mobile-menu-item:hover{
+    color: var(--txt-c-accent);
+    font-size: 17px;
+}
+.nav-menu .mobile-menu-item:hover{
+    color: var(--txt-c-accent);
+    font-size: 17px;
 }
 
 .mobile-menu-contacts {
@@ -341,7 +358,12 @@ body {
 
 
 /*Navigation*/
-
+.logo-link{
+    transition: var(--animation-transition);
+}
+.logo-link:hover{
+    transform: scale(1.1);
+}
 .navigation {
     width: 100%;
     display: flex;
@@ -357,6 +379,12 @@ body {
     color: var(--txt-c-accent);
     text-decoration: none;
     margin-right: 20px;
+    transition: var(--animation-transition);
+}
+.hire-me-btn:hover{
+    outline: 1px solid var(--c-accent);
+    padding: 0 10px;
+    color: var(--txt-c-light);
 }
 
 .mobile-menu {
@@ -474,6 +502,11 @@ body {
     align-items: center;
     margin-bottom: 35px;
     cursor: pointer;
+    transition: var(--animation-transition);
+}
+.front-page-my-video-btn:hover{
+    background: var(--c-accent);
+    color: var(--c-light);
 }
 
 .front-page-my-video-btn .fa-play {
