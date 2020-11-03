@@ -1155,6 +1155,7 @@ body {
   .callback-form{
       margin: 45px 20px 45px 20px;
       padding: 75px 30px 80px 30px;
+      
   }
   .callback-form-input-submit{
       margin-top: 10px;
@@ -1198,6 +1199,8 @@ body {
 .calculator-form{
     z-index: 2;
     padding: 60px 80px 70px 80px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .calculator-form-title{
     line-height: 150%;
