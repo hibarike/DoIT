@@ -65,10 +65,10 @@ body {
 /* COMMON */
 
 .tablet-element{
-    display: none;
+    display: none ;
 }
 .desktop-element{
-    display: none;
+    display: none !important;
 }
 .mobile-element{
     display: block;
@@ -704,7 +704,11 @@ body {
     padding: 15px 30px 15px 10px;
     margin-bottom: 30px;
 }
-
+.swiper-container {
+    width: 320px;
+    height: auto;
+    margin-bottom: 30px;
+}
 
 /* TEAM PROJECT */
 
@@ -831,8 +835,11 @@ body {
     color: var(--txt-c-light);
     margin: 0 0 30px 0;
     width: 276px;
+    
 }
-
+.calc-z-index{
+    z-index: 2;
+}
 .calculator-descr span {
     background: var(--c-accent);
     padding: 5px;
@@ -1034,20 +1041,23 @@ body {
 }
 /* Media query */
 @media only screen and (min-width: 620px){
-    
+    .swiper-container {
+        width: 620px;
+        height: auto;
+    }
     .container{
         padding-bottom: 70px;
         min-width: 640px;
     }
     .mobile-element{
-        display: none;
+        display: none !important;
     }
     
     .desktop-element{
-        display: none;
+        display: none !important;
     }
     .tablet-element{
-        display: block;
+        display: block !important;
     }
    .front-page-my-name{
     font-size: 36px;
@@ -1252,7 +1262,7 @@ body {
      width: 100%;
 }
 .footer-callback{
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start; 
     margin-right: 21px;
@@ -1278,17 +1288,21 @@ body {
   
 }
 @media only screen and (min-width: 1000px){
+    .swiper-container {
+        width: 700px;
+        height: auto;
+    }
     .container{
         max-width: var(--desktop-lg);
     }
     .mobile-element{
-        display: none;
+        display: none !important;
     }
     .tablet-element{
-        display: none;
+        display: none !important;
     }
     .desktop-element{
-        display: block;
+        display: block !important;
     }
     .front-page-profession{
         font-size: 70px;

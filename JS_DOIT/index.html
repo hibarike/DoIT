@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/choices.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
@@ -373,12 +374,12 @@
                 data-aos-easing="ease-in-back"
                 data-aos-delay="1000"
                 data-aos-offset="0" 
-                data-aos-anchor-placement="center-bottom"/>
+                data-aos-anchor-placement="top-center"/>
                 <p class="calculator-text" data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="1000"
                 data-aos-offset="0" 
-                data-aos-anchor-placement="top-center">
+                data-aos-anchor-placement="center-bottom">
                     / The final cost depends on the technical requirements, terms, specifics of your project.
                 </p>
             </div>
@@ -443,8 +444,7 @@
         </div>
     </section>
     <footer class="info container" id="contacts" >
-        <div class="footer-me" data-aos="fade-up"
-        >
+        <div class="footer-me" >
             <div class="footer-elements">
                 <p class="footer-style-dark"> Boris Bilyi</p>
                 <p class="footer-style-light"> Frontend Develoer</p>
@@ -468,24 +468,28 @@
                 </div>
                 
             </div>
-            <div class="footer-callback tablet-element desktop-element">
-                <a href="tel:+380931068492" class="footer-phone footer-style-dark ">
-                    +38 (093) 106 84 92
-                </a>
-                <a href="mailto:hibarike@gmail.com" class="footer-email footer-style-light">
-                    hibarike@gmail.com
-                </a>
+            <div class="tablet-element desktop-element">
+
+                <div class="footer-callback ">
+                    <a href="tel:+380931068492" class="footer-phone footer-style-dark ">
+                        +38 (093) 106 84 92
+                    </a>
+                    <a href="mailto:hibarike@gmail.com" class="footer-email footer-style-light">
+                        hibarike@gmail.com
+                    </a>
+                </div>
             </div>
-            <div class="footer-links desktop-element">
-                <a href="https://github.com/hibarike" class="links-git footer-icon" target="_blank"><i
-                        class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/boris-bely%D1%96-969a6a177/" class="links-linkdln footer-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/beliyboris" class="links-facebook footer-icon" target="_blank"><i
-                        class="fab fa-facebook"></i></a>
-                <a href="https://t.me/whitestels" class="links-telegram footer-icon" target="_blank"><i
-                        class="fab fa-telegram"></i></a>
+            <div class="desktop-element">
+                <div class="footer-links ">
+                        <a href="https://github.com/hibarike" class="links-git footer-icon" target="_blank"><i
+                                class="fab fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com/in/boris-bely%D1%96-969a6a177/" class="links-linkdln footer-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/beliyboris" class="links-facebook footer-icon" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://t.me/whitestels" class="links-telegram footer-icon" target="_blank"><i
+                                class="fab fa-telegram"></i></a>
+                </div>
             </div>
-           
         </div>
 
     </footer>
@@ -541,7 +545,25 @@
                 <i class="fas fa-times modal-close-btn"></i>
 
                 <div class="project-modal-scrollable">
-                    <img class="project-modal-img" src="img/projects/personal/full-stack.jpg" alt="full stack project image 1" />
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <img src="img/projects/personal/full-stack/full-stack-1.png" alt="full-stack-1" class="swiper-slide">
+                            <img src="img/projects/personal/full-stack/full-stack-2.png" alt="full-stack-2" class="swiper-slide">
+                            <img src="img/projects/personal/full-stack/full-stack-3.png" alt="full-stack-3" class="swiper-slide">
+                            <img src="img/projects/personal/full-stack/full-stack-4.png" alt="full-stack-4" class="swiper-slide">
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev tablet-element desktop-element"></div>
+                        <div class="swiper-button-next tablet-element desktop-element"></div>
+                    
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
 
                     <a href="https://fullstackonline.goit.ua/" class="project-modal-title">Goit Full Stack
                         разработчик</a>
@@ -564,8 +586,25 @@
             <div class="project-modal-container modal-area-content">
                 <i class="fas fa-times modal-close-btn"></i>
 
-                <div class="project-modal-scrollable">
-                    <img class="project-modal-img" src="img/projects/personal/wedding.jpg" alt="wedding project image 1" />
+                    <div class="project-modal-scrollable">
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <img src="img/projects/personal/wedding/wedding-1.jpg" alt="wedding-1" class="swiper-slide">
+                                <img src="img/projects/personal/wedding/wedding-2.jpg" alt="wedding-2" class="swiper-slide">
+                                <img src="img/projects/personal/wedding/wedding-3.jpg" alt="wedding-3" class="swiper-slide">
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev tablet-element desktop-element"></div>
+                            <div class="swiper-button-next tablet-element desktop-element"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
 
                     <a href="https://www.beeruza.com.ua/" class="project-modal-title">Beeruza - свадебные
                         пригласительные и аксессуары</a>
@@ -589,7 +628,24 @@
                 <i class="fas fa-times modal-close-btn"></i>
 
                 <div class="project-modal-scrollable">
-                    <img class="project-modal-img" src="img/projects/personal/pro-test.jpg" alt="pro-test project image 1" />
+                    <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <img src="img/projects/personal/pro-test/pro-test-1.jpg" alt="pro-test-1.jpg" class="swiper-slide">
+                                <img src="img/projects/personal/pro-test/pro-test-2.jpg" alt="pro-test-2.jpg" class="swiper-slide">
+                                <img src="img/projects/personal/pro-test/pro-test-3.jpg" alt="pro-test-3.jpg" class="swiper-slide">
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev tablet-element desktop-element"></div>
+                            <div class="swiper-button-next tablet-element desktop-element"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
 
                     <a href="https://pro-test.goit.co.ua/" class="project-modal-title">Pro test - техническая подготовка
                         QA</a>
@@ -609,7 +665,25 @@
                 <i class="fas fa-times modal-close-btn"></i>
 
                 <div class="project-modal-scrollable">
-                    <img class="project-modal-img" src="img/projects/personal/goit.jpg" alt="goit project image 1" />
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <img src="img/projects/personal/goit/goit-1.jpg" alt="goit-1.jpg" class="swiper-slide">
+                            <img src="img/projects/personal/goit/goit-2.jpg" alt="goit-2.jpg" class="swiper-slide">
+                            <img src="img/projects/personal/goit/goit-3.jpg" alt="goit-3.jpg" class="swiper-slide">
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev tablet-element desktop-element"></div>
+                        <div class="swiper-button-next tablet-element desktop-element"></div>
+                    
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
 
                     <a href="https://goit.ua/" class="project-modal-title">GoIT - курсы программирования</a>
 
@@ -635,7 +709,25 @@
                 <i class="fas fa-times modal-close-btn"></i>
 
                 <div class="project-modal-scrollable">
-                    <img class="project-modal-img" src="img/projects/team/questify.jpg" alt="Questify project image 1" />
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <img src="img/projects/team/questify/questify-1.jpg" alt="questify-1.jpg" class="swiper-slide">
+                            <img src="img/projects/team/questify/questify-2.jpg" alt="questify-2.jpg" class="swiper-slide">
+                            <img src="img/projects/team/questify/questify-3.jpg" alt="questify-3.jpg" class="swiper-slide">
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev tablet-element desktop-element"></div>
+                        <div class="swiper-button-next tablet-element desktop-element"></div>
+                    
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
 
                     <a href="https://questify.goit.co.ua/" class="project-modal-title">Questify - turn your life into a
                         thrilling game</a>
@@ -654,7 +746,25 @@
                 <i class="fas fa-times modal-close-btn"></i>
 
                 <div class="project-modal-scrollable">
-                    <img class="project-modal-img" src="img/projects/team/it-test.jpg" alt="it-test project image 1" />
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <img src="img/projects/team/it-test/it-test-1.jpg" alt="it-test-1.jpg" class="swiper-slide">
+                            <img src="img/projects/team/it-test/it-test-2.jpg" alt="it-test-2.jpg" class="swiper-slide">
+                            <img src="img/projects/team/it-test/it-test-3.jpg" alt="it-test-3.jpg" class="swiper-slide">
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev tablet-element desktop-element"></div>
+                        <div class="swiper-button-next tablet-element desktop-element"></div>
+                    
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
 
                     <a href="https://testit.co.ua/" class="project-modal-title">Тест на профессиональную личность в IT
                     </a>
@@ -676,6 +786,8 @@
     <script src="js/callback-form.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/animation-on-scroll.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/sliders.js"></script>
 </body>
 
 </html>
