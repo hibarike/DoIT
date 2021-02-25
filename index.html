@@ -295,7 +295,10 @@ s.parentNode.insertBefore(hcc, s.nextSibling);
 </script>
 <script type="text/javascript" src="path-to/bower_components/crypto-js/crypto-js.js"></script>
 <script type="text/javascript">
-//--------------------SyncApi
+
+</script>
+<script>
+    //--------------------SyncApi
 var login = 116448;
 var time = Math.floor(Date.now() / 1000);
 var secret = "JalPRClXtArX6tDUkU26WvVXFSWrgRjuCbZAW0w4561Avw9i38";
@@ -312,7 +315,6 @@ var data = {
     }
   ]
 };
-var CryptoJS = require("crypto-js");
 var signature = CryptoJS.enc.Hex.stringify(
   CryptoJS.SHA1(time + secret + data + secret)
 );
@@ -347,11 +349,6 @@ postData(url, data).then((data) => {
   console.log(data); // JSON data parsed by `response.json()` call
 });
 
-
-
-
-
-
-</script>
+    </script>
 <a href="http://hypercomments.com" class="hc-link" title="comments widget">comments powered by HyperComments</a>
 </html>
