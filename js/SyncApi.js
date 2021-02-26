@@ -17,19 +17,14 @@ const url = `https://sync-api.corezoid.com/api/1/json/${login}/${time}/${sign
 console.log(url)
 
 const axiosConfig = {
+  mode: 'no-cors',
   method: 'POST',
-		mode: 'cors',
-		headers: {
-			'Access-Control-Allow-Origin': '*',
-			'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,OPTIONS',
-			'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-			//'Access-Control-Allow-Credentials': true,
-			Accept: 'application/json',
-			'Content-Type': 'application/json',
-		},
-		withCredentials: false,
-		credentials: 'same-origin',
-		crossdomain: true,
+  	headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json',
+      },
+      withCredentials: true,
+      credentials: 'same-origin',
 }
 
 async function makeGetRequest() {
