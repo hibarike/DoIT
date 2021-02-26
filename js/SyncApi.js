@@ -17,7 +17,7 @@ const url = `https://sync-api.corezoid.com/api/1/json/${login}/${time}/${sign
 console.log(url)
 
 const axiosConfig = {
-  method: 'HEAD',
+  method: 'POST',
 		mode: 'cors',
 		headers: {
 			'Access-Control-Allow-Origin': '*',
