@@ -23,11 +23,11 @@ const axiosConfig = {
 			'Access-Control-Allow-Origin': '*',
 			'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,OPTIONS',
 			'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-			'Access-Control-Allow-Credentials': true,
+			//'Access-Control-Allow-Credentials': true,
 			Accept: 'application/json',
 			'Content-Type': 'application/json',
 		},
-		withCredentials: true,
+		withCredentials: false,
 		credentials: 'same-origin',
 		crossdomain: true,
 }
