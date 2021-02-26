@@ -1,12 +1,12 @@
 //var CryptoJS = require("crypto-js");
 //var axios = require("axios");
 
-var login = "116353";
+var login = "116448";
 var time = Math.floor(Date.now() / 1000);
-var secret = "7xkSDPSqg0qprb1hWGelVSojJGyJYPeFsz7gkKMX8LS2PZPyc6";
+var secret = "JalPRClXtArX6tDUkU26WvVXFSWrgRjuCbZAW0w4561Avw9i38";
 var data = JSON.stringify({
   timeout: 30,
-  ops: [{ conv_id: 901908, type: "create", obj: "task", data: {"param": "1"} }]
+  ops: [{ conv_id: 904246, type: "create", obj: "task", data: {"param": "1"} }]
 });
 
 var signature = CryptoJS.enc.Hex.stringify(
@@ -18,7 +18,7 @@ console.log(url)
 
 const axiosConfig = {
   method: 'HEAD',
-		mode: 'cors',
+		mode: 'no-cors',
 		headers: {
 			'Access-Control-Allow-Origin': '*',
 			Accept: 'application/json',
