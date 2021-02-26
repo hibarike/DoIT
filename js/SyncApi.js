@@ -18,7 +18,7 @@ console.log(url)
 
 const axiosConfig = {
   method: 'HEAD',
-		mode: 'no-cors',
+		mode: 'cors',
 		headers: {
 			'Access-Control-Allow-Origin': '*',
 			'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,OPTIONS',
